@@ -1,0 +1,7 @@
+python-telegram-bot==20.6
+gtts
+requests
+pydub
+speechrecognition
+langdetect
+deep-translator

@@ -10,7 +10,7 @@ from deep_translator import GoogleTranslator
 from pydub import AudioSegment
 
 #configurations
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+TELEGRAM_TOKEN = "7862646272:AAEDYV3a9AIuaQbkCwyzdMRCFUGEHhkCVEc"
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 

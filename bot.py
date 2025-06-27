@@ -10,8 +10,8 @@ from deep_translator import GoogleTranslator
 from pydub import AudioSegment
 
 #configurations
-TELEGRAM_TOKEN = "7862646272:AAEDYV3a9AIuaQbkCwyzdMRCFUGEHhkCVEc"
-OPENROUTER_API_KEY = "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"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 
 
@@ -135,4 +135,3 @@ app.add_handler(MessageHandler(filters.VOICE, handle_voice))
 
 print("✅ Bot is running...")
 app.run_polling()
-
